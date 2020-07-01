@@ -1,6 +1,6 @@
 # Maze-Game
 
-An ode to 2000s flash games
+An ode to 2000s flash games (but do we really need another maze game 😂)
 
 Use the arrow keys or w/a/s/d keys to control movement and reach the goal before the timer finishes
 
