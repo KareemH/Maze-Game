@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Menu -->
+    <div class="header">
+      <h2>Score:</h2>
+      <div class="score">0</div>
+
+      <h2>Level:</h2>
+      <div class="levels">0</div>
+
+      <h2>Time:</h2>
+      <div class="time">12000</div>
+
+      <button class="button is-black is-medium" id="restart">
+        Restart?
+      </button>
+    </div>
+
+    <!-- Ready button -->
+    <button class="button is-primary is-large" id="ready">
+      Click here to start!
+    </button>
+
+    <!-- Winner message -->
+    <div class="winner hidden">
+      <h1>You Win!</h1>
+    </div>
+
+    <!-- Next game -->
+    <div class="next-game hidden">
+      <h1>Onto the next challenge!</h1>
+      <button class="button is-primary" id="next">Next Level</button>
+    </div>
+
+    <!-- Game over -->
+    <div class="game-over hidden">
+      <h1>Game Over. Be quicker than that</h1>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/message.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
